@@ -165,7 +165,7 @@ footer .container .sec.aboutus
 {
 	width: 40%;
 }
-footer .container .sec.aboutus h2
+footer .container.h2
 {
 	position: relative;
 	color: #fff;
@@ -186,4 +186,60 @@ footer .container .sec.aboutus p
 {
 	color: #999;
 }
-
+.sci
+{
+	margin-top: 20px;
+	display: flex;
+}
+.sci li
+{
+	list-style: none;
+}
+.sci li a
+{
+	display: inline-block;
+	width: 40px;
+	height: 40px;
+	background: #222;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-right: 10px;
+	text-decoration: none;
+	border-radius: 4px;
+}
+.sci li a:hover
+{
+	background-color: #f00;
+}
+.sci li a .fa
+{
+	color: #fff;
+	font-size: 20px;
+}
+.quicklinks
+{
+	position: relative;
+	width: 25%;
+}
+quicklinks ul li
+{
+	list-style: none;
+}
+.quicklinks ul li a
+{
+	color: #999;
+	text-decoration: none;
+	margin-bottom: 10px;
+	display: inline-block;
+}
+.quicklinks ul li a:hover
+{
+	color: #fff;
+}
+.contact
+{
+	width: calc(35% - 60px);
+	margin-right: 0 !important;
+}
+.contact 

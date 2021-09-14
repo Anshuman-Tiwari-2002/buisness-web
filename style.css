@@ -1,5 +1,5 @@
 .header-fixed {
-	background-color:#292c2f;
+	background-color:#000080;
 	box-shadow:0 1px 1px #ccc;
 	padding: 20px 40px;
 	height: 80px;
@@ -35,13 +35,13 @@
 }
 
 .header-fixed .header-limiter h1 span {
-	color: #5383d3;
+	color: #ffffff;
 }
 
 /* The navigation links */
 
 .header-fixed .header-limiter a {
-	color: #ffffff;
+	color:#ffffff;
 	text-decoration: none;
 }
 
@@ -64,7 +64,7 @@
 }
 
 .header-fixed .header-limiter nav a.selected {
-	color: #608bd2;
+	color: #ffffff;
 	pointer-events: none;
 	opacity: 1;
 }
@@ -139,3 +139,51 @@ body {
 	padding: 0;
 	height: 1500px;
 }
+footer
+{
+	position: relative;
+	width: 100%;
+	height: auto;
+	padding: 50px 100px;
+	background: #111;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+footer .container
+{
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	flex-direction: row;
+}
+footer .container .sec
+{
+     margin-right: 30px;
+}
+footer .container .sec.aboutus
+{
+	width: 40%;
+}
+footer .container .sec.aboutus h2
+{
+	position: relative;
+	color: #fff;
+	font-weight: 500;
+	margin-bottom: 15px;
+}
+footer .container .sec.aboutus h2:before
+{
+	content: '';
+	position: absolute;
+	bottom: -5px;
+	left: 0;
+	width: 50px;
+	height: 2px;
+	background: #f00;
+}
+footer .container .sec.aboutus p
+{
+	color: #999;
+}
+
